@@ -1,0 +1,10 @@
+conda env create -f environment.yml
+conda activate GazeML
+
+get_trained_weights.bash (CRLF->LF)
+bash get_trained_weights.bash
+
+elg_demo.py (line 326: fps = int(np.round(1.0 / (time.time() - last_frame_time + 1e-8))))
+
+cd src
+python elg_demo.py
